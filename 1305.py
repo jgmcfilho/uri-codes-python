@@ -23,5 +23,6 @@ while True:
             print(values[0]+1)            
         else:
             print(values[0])
+    # Handling end of file error
     except EOFError:
         break

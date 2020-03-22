@@ -9,10 +9,10 @@ while True:
     Q = int(line.split()[1])    
     if Q == N == 0:
         break
-    for i in range(N):
+    for _ in range(N):
         marbles.append(int(input()))
     marbles.sort(reverse = False)
-    for i in range(Q):
+    for _ in range(Q):
         tent = int(input())
         if tent in marbles:
             results += '#{} found at {}'.format(tent, marbles.index(tent)+1)

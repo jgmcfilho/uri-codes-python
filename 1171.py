@@ -7,7 +7,7 @@ for i in range(amount_of_number):
 
 for number in map(str, sorted(numbers_aux)):
     if not number in numbers:
-            numbers[number] = 1
+            numbers[number] = 1 
     else:
         numbers[number] += 1
 

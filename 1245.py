@@ -4,6 +4,8 @@
 while (True):
     try:
         for i in range(int(input())):
+            pairs = []
+            count = 0
             line = input()
             pairs.append(line)
             number = line.split()[0]

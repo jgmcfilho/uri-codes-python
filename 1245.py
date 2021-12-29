@@ -3,9 +3,9 @@
 
 while (True):
     try:
+        pairs = []
+        count = 0
         for i in range(int(input())):
-            pairs = []
-            count = 0
             line = input()
             pairs.append(line)
             number = line.split()[0]
